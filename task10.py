@@ -1,5 +1,6 @@
 def sort_numbers(numbers: list, reverse: bool = False) -> list:
-    return sorted(numbers, reverse=reverse)
+    result = sorted(numbers, reverse=reverse)
+    return result
 
 x = sort_numbers([1, 5, 6, 2, 4])
 
